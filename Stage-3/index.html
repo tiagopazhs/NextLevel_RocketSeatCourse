@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DoctorCare</title>
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body onscroll="onScroll()">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body onscroll="onScroll()">
     <nav id="navigation">
-      <div class="wrapper">
-        <a class="logo" href="#home">
-          <svg
-            width="133"
-            height="18"
-            viewBox="0 0 133 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+        <div class="wrapper">
+            <a class="logo" href="#home">
+                <svg width="133" height="18" viewBox="0 0 133 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M0 17.088V0.287999H5.16C8.12 0.287999 10.296 1.04 11.688 2.544C13.096 4.048 13.8 6.112 13.8 8.736C13.8 11.312 13.096 13.352 11.688 14.856C10.296 16.344 8.12 17.088 5.16 17.088H0ZM2.016 15.408H5.112C6.744 15.408 8.04 15.144 9 14.616C9.976 14.072 10.672 13.304 11.088 12.312C11.504 11.304 11.712 10.112 11.712 8.736C11.712 7.328 11.504 6.12 11.088 5.112C10.672 4.104 9.976 3.328 9 2.784C8.04 2.24 6.744 1.968 5.112 1.968H2.016V15.408Z"
               fill="#212529"
@@ -66,21 +59,20 @@
               fill="#00856F"
             />
           </svg>
-        </a>
+            </a>
 
-        <div class="menu">
-          <ul>
-            <li><a onclick="closeMenu()" href="#home">Início</a></li>
-            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
-            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
-          </ul>
+            <div class="menu">
+                <ul>
+                    <li><a onclick="closeMenu()" href="#home">Início</a></li>
+                    <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+                    <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+                </ul>
 
-          <a class="button" href="#">Agende sua consulta</a>
+                <a class="button" href="#">Agende sua consulta</a>
 
-          <ul class="social-links">
-            <li>
-              <a target="_blank" href="https://instagram.com/maykbrito"
-                ><svg
+                <ul class="social-links">
+                    <li>
+                        <a target="_blank" href="https://instagram.com/maykbrito"><svg
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -110,16 +102,10 @@
                   />
                 </svg>
               </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://facebook.com/maykbrito">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://facebook.com/maykbrito">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M18 1.99997H15C13.6739 1.99997 12.4021 2.52675 11.4645 3.46444C10.5268 4.40212 10 5.67389 10 6.99997V9.99997H7V14H10V22H14V14H17L18 9.99997H14V6.99997C14 6.73475 14.1054 6.4804 14.2929 6.29286C14.4804 6.10533 14.7348 5.99997 15 5.99997H18V1.99997Z"
                     stroke="#FFFAF1"
@@ -128,17 +114,11 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://youtube.com/maykbrito">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://youtube.com/maykbrito">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M22.5396 6.42C22.4208 5.94541 22.1789 5.51057 21.8382 5.15941C21.4976 4.80824 21.0703 4.55318 20.5996 4.42C18.8796 4 11.9996 4 11.9996 4C11.9996 4 5.1196 4 3.3996 4.46C2.92884 4.59318 2.50157 4.84824 2.16094 5.19941C1.82031 5.55057 1.57838 5.98541 1.4596 6.46C1.14481 8.20556 0.990831 9.97631 0.999595 11.75C0.988374 13.537 1.14236 15.3213 1.4596 17.08C1.59055 17.5398 1.8379 17.9581 2.17774 18.2945C2.51758 18.6308 2.93842 18.8738 3.3996 19C5.1196 19.46 11.9996 19.46 11.9996 19.46C11.9996 19.46 18.8796 19.46 20.5996 19C21.0703 18.8668 21.4976 18.6118 21.8382 18.2606C22.1789 17.9094 22.4208 17.4746 22.5396 17C22.852 15.2676 23.0059 13.5103 22.9996 11.75C23.0108 9.96295 22.8568 8.1787 22.5396 6.42Z"
                     stroke="#FFFAF1"
@@ -154,17 +134,12 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <button
-          aria-expanded="false"
-          aria-label="Abrir menu"
-          onclick="openMenu()"
-          class="open-menu"
-        >
+            <button aria-expanded="false" aria-label="Abrir menu" onclick="openMenu()" class="open-menu">
           <svg
             width="40"
             height="40"
@@ -195,12 +170,7 @@
             />
           </svg>
         </button>
-        <button
-          aria-expanded="true"
-          aria-label="Fechar menu"
-          onclick="closeMenu()"
-          class="close-menu"
-        >
+            <button aria-expanded="true" aria-label="Fechar menu" onclick="closeMenu()" class="close-menu">
           <svg
             width="40"
             height="40"
@@ -217,22 +187,21 @@
             />
           </svg>
         </button>
-      </div>
+        </div>
     </nav>
 
     <section id="home">
-      <div class="wrapper">
-        <header>
-          <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
-          <h1>Assistência médica simplificada para todos</h1>
-        </header>
+        <div class="wrapper">
+            <header>
+                <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
+                <h1>Assistência médica simplificada para todos</h1>
+            </header>
 
-        <div class="content">
-          <p>
-            Os médicos da DoctorCare vão além dos sintomas para tratar a causa
-            raiz de sua doença e proporcionar uma cura a longo prazo.
-          </p>
-          <button>
+            <div class="content">
+                <p>
+                    Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.
+                </p>
+                <button>
             <svg
               width="20"
               height="20"
@@ -248,49 +217,40 @@
   
             Agende sua consulta
           </button>
-  
-          <img
-            src="/assets/Foto.png"
-            alt="Mulher negra vestindo moletom verde e sorrindo"
-          />
+
+                <img src="./assets/Foto.png" alt="Mulher negra vestindo moletom verde e sorrindo" />
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <h3>+3.500</h3>
+                    <p>Pacientes atendidos</p>
+                </div>
+
+                <div class="stat">
+                    <h3>+15</h3>
+                    <p>Especialistas disponíveis</p>
+                </div>
+
+                <div class="stat">
+                    <h3>+10</h3>
+                    <p>Anos no mercado</p>
+                </div>
+            </div>
         </div>
-
-        <div class="stats">
-          <div class="stat">
-            <h3>+3.500</h3>
-            <p>Pacientes atendidos</p>
-          </div>
-
-          <div class="stat">
-            <h3>+15</h3>
-            <p>Especialistas disponíveis</p>
-          </div>
-
-          <div class="stat">
-            <h3>+10</h3>
-            <p>Anos no mercado</p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section id="services">
-      <div class="wrapper">
-        <header>
-          <h4>Serviços</h4>
-          <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
-        </header>
+        <div class="wrapper">
+            <header>
+                <h4>Serviços</h4>
+                <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
+            </header>
 
-        <div class="content">
-          <div class="cards">
-            <div class="card">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+            <div class="content">
+                <div class="cards">
+                    <div class="card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
@@ -300,22 +260,15 @@
                   stroke-linejoin="round"
                 />
               </svg>
-  
-              <h3>Problemas digestivos</h3>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-  
-            <div class="card">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+
+                        <h3>Problemas digestivos</h3>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
@@ -325,22 +278,15 @@
                   stroke-linejoin="round"
                 />
               </svg>
-  
-              <h3>Saúde Hormonal</h3>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-  
-            <div class="card">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+
+                        <h3>Saúde Hormonal</h3>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
@@ -350,22 +296,15 @@
                   stroke-linejoin="round"
                 />
               </svg>
-  
-              <h3>Bem-estar mental</h3>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-  
-            <div class="card">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+
+                        <h3>Bem-estar mental</h3>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
@@ -375,22 +314,15 @@
                   stroke-linejoin="round"
                 />
               </svg>
-  
-              <h3>Cuidados Pediátricos</h3>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-  
-            <div class="card">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+
+                        <h3>Cuidados Pediátricos</h3>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
@@ -400,22 +332,15 @@
                   stroke-linejoin="round"
                 />
               </svg>
-  
-              <h3>Autoimune e Inflamação</h3>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
-            </div>
-  
-            <div class="card">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+
+                        <h3>Autoimune e Inflamação</h3>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
                 <path
                   d="M17.091 8.18182L10.091 15.1818L6.90918 12"
@@ -425,37 +350,39 @@
                   stroke-linejoin="round"
                 />
               </svg>
-  
-              <h3>Saúde do Coração</h3>
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim.
-              </p>
+
+                        <h3>Saúde do Coração</h3>
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <section id="about">
-      <div class="wrapper">
-        <header>
-          <h4>Sobre nós</h4>
-          <h2>Entenda quem somos e por que existimos</h2>
-        </header>
+        <div class="wrapper">
+            <header>
+                <h4>Sobre nós</h4>
+                <h2>Entenda quem somos e por que existimos</h2>
+            </header>
 
-        <div class="content">
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-          </p>
-          
-          <img src="assets/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="Doutor feliz segurando prancheta com pacientes" />
+            <div class="content">
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco
+                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor do amet sint.
+                </p>
+
+                <img src="./assets/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="Doutor feliz segurando prancheta com pacientes" />
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- ScrollReaveal Lib -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
-  </body>
+    <script src="./main.js"></script>
+</body>
+
 </html>
